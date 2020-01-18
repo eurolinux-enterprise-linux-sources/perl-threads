@@ -1,6 +1,6 @@
 Name:           perl-threads
 Version:        1.87
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        Perl interpreter-based threads
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,6 +59,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.87-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.87-3
+- Mass rebuild 2013-12-27
+
 * Mon Jul 01 2013 Petr Pisar <ppisar@redhat.com> - 1.87-2
 - Specify all dependencies
 
